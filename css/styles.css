@@ -24,7 +24,7 @@
 }
 
 #wiype-home {
-    width: 310px;
+    width: 330px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -32,7 +32,7 @@
 }
 
 .wiype-home-image {
-    width: 310px;
+    width: 330px;
     position: relative;
     opacity: 0.70;
 }
@@ -52,7 +52,7 @@
 
 #wiype-about {
     background-color: var(--color-nude-clean);
-    width: 310px;
+    width: 330px;
     margin: auto;    
 }
 
@@ -71,7 +71,7 @@
 }
 
 #wiype-problem {
-    width: 310px;
+    width: 330px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -79,7 +79,7 @@
 }
 
 .wiype-problem-image {
-    width: 310px;
+    width: 330px;
     position: relative;
     opacity: 0.70;
 }
@@ -97,7 +97,7 @@
 
 #wiype-meaning {
     background-color: var(--color-nude);
-    width: 310px;
+    width: 330px;
     margin: auto;
 }
 
@@ -116,7 +116,7 @@
 }
 
 #wiype-solution {
-    width: 310px;
+    width: 330px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -124,7 +124,7 @@
 }
 
 .wiype-solution-image {
-    width: 310px;
+    width: 330px;
     position: relative;
     opacity: 0.70;
 }
