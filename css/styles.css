@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --color-blue-transparent: rgba(10, 51, 92,0.5);    
+    --color-nude: #D9D8D6;
+    --color-white: #FFFFFF;
+    --color-nude-clean: #EFEFDF;
+    --color-lapis-blue: #003462;
+    --color-black: #000000;
+    --color-black-40: #A9AEAB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#wiype-home {
+    width: 310px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.wiype-home-image {
+    width: 310px;
+    position: relative;
+    opacity: 0.70;
+}
+
+.wiype-welcome-container {
+    position: absolute;       
+}
+
+.wiype-text-welcome {
+    color: var(--color-nude-clean);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px;
+    background-color: var(--color-blue-transparent);
+    border-radius: 4px;       
+}
+
+#wiype-about {
+    background-color: var(--color-nude-clean);
+    width: 310px;
+    margin: auto;    
+}
+
+.wiype-about-title {
+    color: var(--color-lapis-blue);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 35px 0 30px;
+}
+
+.wiype-about-text {
+    color: var(--color-black);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 10px 35px;
+}
+
+#wiype-problem {
+    width: 310px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wiype-problem-image {
+    width: 310px;
+    position: relative;
+    opacity: 0.70;
+}
+
+.wiype-problem-container {
+    position: absolute;
+}
+
+.wiype-text-problem {
+    color: var(--color-black);
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+#wiype-meaning {
+    background-color: var(--color-nude);
+    width: 310px;
+    margin: auto;
+}
+
+.wiype-meaning-title {
+    color: var(--color-lapis-blue);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 35px 0 30px;
+}
+
+.wiype-meaning-text {
+    color: var(--color-black);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 10px 35px;
+}
+
+#wiype-solution {
+    width: 310px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.wiype-solution-image {
+    width: 310px;
+    position: relative;
+    opacity: 0.70;
+}
+
+.wiype-solution-container {
+    position: absolute;
+}
+
+.wiype-text-solution {
+    color: var(--color-black);
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+
+
