@@ -8,6 +8,7 @@
     --color-lapis-blue: #003462;
     --color-black: #000000;
     --color-black-40: #A9AEAB;
+    --color-yellow: #F7DF1A
 }
 
 * {
@@ -50,7 +51,7 @@ span {
 
 .wiyp-text-welcome {
     color: var(--color-nude-clean);
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 700;
     padding: 10px;
     background-color: var(--color-blue-transparent);
@@ -70,8 +71,8 @@ span {
 
 .wiyp-about-text {        
     background-color: var(--color-white);
-    margin: 0 10px 20px;
-    border-radius: 8px;
+    margin: 0 10px 20px;    
+    border-radius: 8px;       
 }
 
 .wiyp-about-text h3 {
@@ -149,28 +150,32 @@ span {
     opacity: 0.90;
 }
 
-.wiyp-solution-container {
+.wiyp-solution-text {
     position: absolute;
 }
 
-.wiyp-text-solution {
-    color: var(--color-black);
-    font-size: 24px;
+.wiyp-solution-text h1 {
+    color: var(--color-yellow);
+    font-size: 32px;
     font-weight: 700;
-    opacity: 0.7;
+    padding-bottom: 20px;    
 }
 
 #wiyp-sectors {    
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--color-nude);    
 }
 
-.wiyp-legal {
+.wiyp-sectors-card {
     margin-top: 37px;
+    background-color: var(--color-white);
+    border-radius: 8px;   
 }
-.wiyp-legal img {
+.wiyp-sectors-card img {
     width: 290px;
+    border-radius: 8px 8px 0 0;
 
 }
 .wiyp-consultancy {
