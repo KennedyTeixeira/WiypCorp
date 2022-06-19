@@ -6,9 +6,10 @@
     --color-white: #FFFFFF;
     --color-nude-clean: #EFEFDF;
     --color-lapis-blue: #003462;
-    --color-black: #000000;
+    --color-black: #130F10;
     --color-black-40: #A9AEAB;
-    --color-yellow: #F7DF1A
+    --color-yellow: #F7DF1A;
+    --color-decrade: #383838;
 }
 
 * {
@@ -184,7 +185,7 @@ span {
 }
 
 #sign-up {
-    background-color: var(--color-nude)
+    background-color: var(--color-nude);    
 }
 
 .title-section {
@@ -200,6 +201,7 @@ span {
     max-width: 790px;
     background-color: var(--color-nude-clean);
     border-radius: 8px;
+    margin: 0 0 40px;
 }
 
 .user-name-container {
@@ -261,4 +263,37 @@ span {
 .color-reset {
     background-color: var(--color-lapis-blue);
     color: var(--color-nude);
+}
+
+#wiyp-company {
+    background-color: var(--color-black-40);
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;    
+}
+
+.wiyp-company-social ul {
+    display: flex;
+}
+
+.wiyp-social {
+    width: 45px;
+    margin: 20px;    
+}
+
+.wiyp-company-legal {
+    margin: 10px;    
+}
+
+.wiyp-company-juridic {
+    margin-bottom: 10px;    
+}
+
+.wiyp-company-juridic a {
+    color: var(--color-black);
 }
