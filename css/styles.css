@@ -165,16 +165,16 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-nude);    
+    background-color: var(--color-nude-clean)    
 }
 
 .wiyp-sectors-card {
     margin-top: 37px;
     background-color: var(--color-white);
-    border-radius: 8px;   
+    border-radius: 8px;       
 }
 .wiyp-sectors-card img {
-    width: 290px;
+    width: 300px;
     border-radius: 8px 8px 0 0;
 
 }
