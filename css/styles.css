@@ -23,122 +23,176 @@
     flex-direction: column;
 }
 
-#wiype-home {
-    width: 576px;
-    margin: auto;
+#wiyp-home {
+    width: 290px;
+    margin: 0 10px 0 0;
     display: flex;
     justify-content: center;
     align-items: center;    
 }
 
-.wiype-home-image {
-    width: 576px;
+.wiyp-home-image {
+    width: 290px;    
     position: relative;
-    opacity: 0.70;
+    opacity: 0.90;    
 }
 
-.wiype-welcome-container {
+.wiyp-welcome-container {
     position: absolute;       
 }
 
-.wiype-text-welcome {
+.wiyp-text-welcome {
     color: var(--color-nude-clean);
     font-size: 16px;
     font-weight: 700;
-    padding: 5px;
+    padding: 10px;
     background-color: var(--color-blue-transparent);
     border-radius: 4px;       
 }
 
-#wiype-about {
+#wiyp-about {
     background-color: var(--color-nude-clean);
-    width: 576px;
-    margin: auto;    
+    width: 290px;
+    margin: 0 10px 0 0;    
 }
 
-.wiype-about-title {
+.wiyp-about-title {
     color: var(--color-lapis-blue);
     font-size: 18px;
     font-weight: 700;
-    margin: 35px 0 30px;
+    padding: 35px 0 30px;
 }
 
-.wiype-about-text {
+.wiyp-about-text {
     color: var(--color-black);
     font-size: 14px;
     font-weight: 400;
-    margin: 0 10px 35px;
+    padding: 0 10px 35px;
 }
 
-#wiype-problem {
-    width: 576px;
-    margin: auto;
+#wiyp-problem {
+    width: 290px;
+    margin: 0 10px 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.wiype-problem-image {
-    width: 576px;
+.wiyp-problem-image {
+    width: 290px;
     position: relative;
-    opacity: 0.70;
+    opacity: 0.90;
 }
 
-.wiype-problem-container {
+.wiyp-problem-container {
     position: absolute;
 }
 
-.wiype-text-problem {
+.wiyp-text-problem {
     color: var(--color-black);
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 700;
     opacity: 0.7;
 }
 
-#wiype-meaning {
+#wiyp-meaning {
     background-color: var(--color-nude);
-    width: 576px;
-    margin: auto;
+    width: 290px;
+    margin: 0 10px 0 0;
 }
 
-.wiype-meaning-title {
+.wiyp-meaning-title {
     color: var(--color-lapis-blue);
     font-size: 18px;
     font-weight: 700;
-    margin: 35px 0 30px;
+    padding: 35px 0 30px;
 }
 
-.wiype-meaning-text {
+.wiyp-meaning-text {
     color: var(--color-black);
     font-size: 14px;
     font-weight: 400;
-    margin: 0 10px 35px;
+    padding: 0 10px 35px;
 }
 
-#wiype-solution {
-    width: 576px;
-    margin: auto;
+#wiyp-solution {
+    width: 290px;
+    margin: 0 10px 0 0;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
-.wiype-solution-image {
-    width: 576px;
+.wiyp-solution-image {
+    width: 290px;    
     position: relative;
-    opacity: 0.70;
+    opacity: 0.90;
 }
 
-.wiype-solution-container {
+.wiyp-solution-container {
     position: absolute;
 }
 
-.wiype-text-solution {
+.wiyp-text-solution {
     color: var(--color-black);
     font-size: 24px;
     font-weight: 700;
     opacity: 0.7;
 }
 
+#wiyp-sectors {
+    width: 290px;
+    margin: 0 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.wiyp-legal {
+    margin-top: 37px;
+}
+.wiyp-legal img {
+    width: 290px;
+
+}
+.wiyp-consultancy {
+    margin-top: 37px;
+}
+
+.wiyp-consultancy img {
+    width: 290px;
+}
+
+.wiyp-invoicing {
+    margin-top: 37px;
+}
+
+.wiyp-invoicing img {
+    width: 290px;
+}
+
+.wiyp-tech {
+    margin-top: 37px;
+}
+
+.wiyp-tech img {
+    width: 290px;
+}
+
+.wiyp-media {
+    margin-top: 37px;
+}
+
+.wiyp-media img {
+    width: 290px;
+}
+
+.wiyp-health {
+    margin-top: 37px;
+}
+
+.wiyp-health img {
+    width: 290px;
+}
 
 
