@@ -19,7 +19,7 @@
 }
 
 span {
-    color: var(--color-black);
+    color: var(--color-black);    
 }
 
 .container {
@@ -27,10 +27,6 @@ span {
     align-items: center;
     flex-direction: column;
 }
-
-/*main {
-    background-color: var(--color-black-40);
-}*/
 
 #wiyp-home {    
     display: flex;
@@ -58,8 +54,8 @@ span {
     border-radius: 4px;       
 }
 
-.wiyp-about-title {
-    background-color: var(--color-nude-clean);        
+#wiyp-about {
+    background-color: var(--color-nude-clean);
 }
 
 .wiyp-about-title h2 {
@@ -169,53 +165,100 @@ span {
 }
 
 .wiyp-sectors-card {
-    margin-top: 37px;
+    margin-top: 20px;
     background-color: var(--color-white);
     border-radius: 8px;       
 }
 .wiyp-sectors-card img {
     width: 320px;
     border-radius: 8px 8px 0 0;
-
-}
-.wiyp-consultancy {
-    margin-top: 37px;
 }
 
-.wiyp-consultancy img {
-    width: 290px;
+.wiyp-sectors-text h3 {
+    color: var(--color-lapis-blue);
+    padding: 25px;
 }
 
-.wiyp-invoicing {
-    margin-top: 37px;
+.division-section {
+    margin-bottom: 20px;
 }
 
-.wiyp-invoicing img {
-    width: 290px;
+#sign-up {
+    background-color: var(--color-nude)
 }
 
-.wiyp-tech {
-    margin-top: 37px;
+.title-section {
+    color: var(--color-lapis-blue);
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px;
 }
 
-.wiyp-tech img {
-    width: 290px;
+.ctrl-consoles {
+    width: 320px;
+    height: 600px;
+    max-width: 790px;
+    background-color: var(--color-nude-clean);
+    border-radius: 8px;
 }
 
-.wiyp-media {
-    margin-top: 37px;
+.user-name-container {
+    padding: 52px 12px 0;
 }
 
-.wiyp-media img {
-    width: 290px;
+.text-box {
+    border: 1px solid var(--color-black-40);
+    width: 268px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 4px;
 }
 
-.wiyp-health {
-    margin-top: 37px;
+.user-email-container {
+    padding: 20px 12px 20px;
 }
 
-.wiyp-health img {
-    width: 290px;
+.games-container {
+    color: var(--color-lapis-blue);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 12px 0;
 }
 
+.send-email-container {
+    color: var(--color-lapis-blue);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 35px 12px 0;
+}
 
+.button-container-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button-margin {
+    margin: 30px;
+}
+
+.color-send {
+    background-color: var(--color-nude);
+    color: var(--color-lapis-blue);
+}
+
+.button {
+    width: 244px;
+    height: 67px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.color-reset {
+    background-color: var(--color-lapis-blue);
+    color: var(--color-nude);
+}
