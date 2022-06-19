@@ -34,7 +34,8 @@ main {
 }
 
 .wiyp-home-image {
-    width: 290px;        
+    width: 100%;
+    height: 50%;        
     position: relative;
     opacity: 0.90;    
 }
@@ -63,8 +64,7 @@ main {
     padding: 35px 0 30px;
 }
 
-.wiyp-about-text {
-    width: 290px;    
+.wiyp-about-text {        
     background-color: var(--color-white);
 }
 
@@ -82,7 +82,8 @@ main {
 }
 
 .wiyp-problem-image {
-    width: 290px;
+    width: 100%;
+    height: 50%;
     position: relative;
     opacity: 0.90;
 }
@@ -123,7 +124,8 @@ main {
 }
 
 .wiyp-solution-image {
-    width: 290px;    
+    width: 100%;
+    height: 50%;    
     position: relative;
     opacity: 0.90;
 }
