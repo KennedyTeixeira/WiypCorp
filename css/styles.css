@@ -17,15 +17,19 @@
     font-family: "Poppins", sans-serif;
 }
 
+span {
+    color: var(--color-black);
+}
+
 .container {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-main {
+/*main {
     background-color: var(--color-black-40);
-}
+}*/
 
 #wiyp-home {    
     display: flex;
@@ -46,7 +50,7 @@ main {
 
 .wiyp-text-welcome {
     color: var(--color-nude-clean);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     padding: 10px;
     background-color: var(--color-blue-transparent);
@@ -59,13 +63,21 @@ main {
 
 .wiyp-about-title h2 {
     color: var(--color-lapis-blue);
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 700;
     padding: 35px 0 30px;
 }
 
 .wiyp-about-text {        
     background-color: var(--color-white);
+    margin: 0 10px 20px;
+    border-radius: 8px;
+}
+
+.wiyp-about-text h3 {
+    font-size: 18px;
+    color: var(--color-black);
+    padding: 15px;
 }
 
 .wiyp-about-text p {
@@ -73,6 +85,13 @@ main {
     font-size: 14px;
     font-weight: 400;
     padding: 0 10px 35px;
+}
+
+.wiyp-initials {
+    color: var(--color-lapis-blue);
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
 }
 
 #wiyp-problem {    
