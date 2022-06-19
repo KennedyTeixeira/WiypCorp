@@ -23,16 +23,18 @@
     flex-direction: column;
 }
 
-#wiyp-home {
-    width: 290px;
-    margin: 0 10px 0 0;
+main {
+    background-color: var(--color-black-40);
+}
+
+#wiyp-home {    
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;       
 }
 
 .wiyp-home-image {
-    width: 290px;    
+    width: 290px;        
     position: relative;
     opacity: 0.90;    
 }
@@ -50,13 +52,11 @@
     border-radius: 4px;       
 }
 
-#wiyp-about {
-    background-color: var(--color-nude-clean);
-    width: 290px;
-    margin: 0 10px 0 0;    
+.wiyp-about-title {
+    background-color: var(--color-nude-clean);        
 }
 
-.wiyp-about-title {
+.wiyp-about-title h2 {
     color: var(--color-lapis-blue);
     font-size: 18px;
     font-weight: 700;
@@ -64,15 +64,18 @@
 }
 
 .wiyp-about-text {
+    width: 290px;    
+    background-color: var(--color-white);
+}
+
+.wiyp-about-text p {
     color: var(--color-black);
     font-size: 14px;
     font-weight: 400;
     padding: 0 10px 35px;
 }
 
-#wiyp-problem {
-    width: 290px;
-    margin: 0 10px 0 0;
+#wiyp-problem {    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,9 +99,7 @@
 }
 
 #wiyp-meaning {
-    background-color: var(--color-nude);
-    width: 290px;
-    margin: 0 10px 0 0;
+    background-color: var(--color-nude);    
 }
 
 .wiyp-meaning-title {
@@ -115,9 +116,7 @@
     padding: 0 10px 35px;
 }
 
-#wiyp-solution {
-    width: 290px;
-    margin: 0 10px 0 0;
+#wiyp-solution {    
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -140,12 +139,10 @@
     opacity: 0.7;
 }
 
-#wiyp-sectors {
-    width: 290px;
-    margin: 0 10px 0 0;
+#wiyp-sectors {    
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .wiyp-legal {
