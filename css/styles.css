@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+/* VARIABLES*/
+
 :root{
     --color-blue-transparent: rgba(10, 51, 92,0.5);    
     --color-nude: #D9D8D6;
@@ -12,6 +14,8 @@
     --color-decrade: #383838;
 }
 
+/*ELEMENTS*/
+
 * {
     margin: 0;
     padding: 0;
@@ -23,6 +27,16 @@ span {
     color: var(--color-black);    
 }
 
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;    
+}
+
+/*CLASSES*/
+
 .container {
     display: flex;
     align-items: center;
@@ -32,7 +46,7 @@ span {
 #wiyp-home {    
     display: flex;
     justify-content: center;
-    align-items: center;       
+    align-items: center;           
 }
 
 .wiyp-home-image {
@@ -48,7 +62,7 @@ span {
 
 .wiyp-text-welcome {
     color: var(--color-nude-clean);
-    font-size: 23px;
+    font-size: 1.5rem;
     font-weight: 700;
     padding: 10px;
     background-color: var(--color-blue-transparent);
@@ -69,7 +83,7 @@ span {
 .wiyp-about-text {        
     background-color: var(--color-white);
     margin: 0 10px 20px;    
-    border-radius: 8px;       
+    border-radius: 8px;    
 }
 
 .wiyp-about-text h3 {
@@ -83,6 +97,7 @@ span {
     font-size: 14px;
     font-weight: 400;
     padding: 0 10px 35px;
+    text-align: justify;
 }
 
 .wiyp-initials {
@@ -95,7 +110,7 @@ span {
 #wiyp-problem {    
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;        
 }
 
 .wiyp-problem-image {
@@ -105,15 +120,15 @@ span {
     opacity: 0.90;
 }
 
-.wiyp-problem-container {
-    position: absolute;
+.wiyp-problem-title {
+     position: absolute;         
 }
 
-.wiyp-text-problem {
+.wiyp-problem-text {
     color: var(--color-black);
-    font-size: 23px;
+    font-size: 1.5rem;
     font-weight: 700;
-    opacity: 0.7;
+    opacity: 0.7;          
 }
 
 #wiyp-meaning {
@@ -137,7 +152,7 @@ span {
 #wiyp-solution {    
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-end;    
 }
 
 .wiyp-solution-image {
@@ -153,20 +168,26 @@ span {
 
 .wiyp-solution-text h1 {
     color: var(--color-yellow);
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
     padding-bottom: 20px;    
 }
 
 #wiyp-sectors {    
     display: flex;
+    justify-content: center;    
+    background-color: var(--color-nude-clean);    
+}
+
+.wiyp-sectors-card-main {
+    display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: var(--color-nude-clean)    
+    flex-wrap: wrap;
+    max-width: 1200px;    
 }
 
 .wiyp-sectors-card {
-    margin-top: 20px;
+    margin: 20px;
     background-color: var(--color-white);
     border-radius: 8px;       
 }
@@ -178,10 +199,7 @@ span {
 .wiyp-sectors-text h3 {
     color: var(--color-lapis-blue);
     padding: 25px;
-}
-
-.division-section {
-    margin-bottom: 20px;
+    font-size: 18px;
 }
 
 #sign-up {
@@ -269,14 +287,6 @@ span {
     background-color: var(--color-black-40);
 }
 
-li {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;    
-}
-
 .wiyp-company-social ul {
     display: flex;
 }
@@ -287,13 +297,90 @@ a {
 }
 
 .wiyp-company-legal {
-    margin: 10px;    
+    margin: 10px;
+    font-size: 16px;    
 }
 
 .wiyp-company-juridic {
-    margin-bottom: 10px;    
+    margin-bottom: 10px;
+       
 }
 
 .wiyp-company-juridic a {
     color: var(--color-black);
+    font-size: 16px;
 }
+
+@media (min-width: 576px) {
+
+    html {
+        font-size: 24px;
+    }
+
+    #wiyp-home {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("/img/wiyp-home.jpg");
+    }
+
+    .wiyp-home-image {
+        opacity: 0;
+    }
+
+    #wiyp-problem {        
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("/img/wiyp-problem.jpg");    
+    }
+
+    .wiyp-problem-image {        
+        opacity: 0;
+    }
+
+    #wiyp-solution {        
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image: url("/img/wiyp-solution.jpg");
+    }
+
+    .wiyp-solution-image {        
+        opacity: 0;
+    }
+
+    #wiyp-solution {        
+        align-items: center;    
+    }
+}
+
+@media (min-width: 768px) {
+
+    html {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    html {
+        font-size: 40px;
+    }
+
+    #wiyp-company {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 0 20px 0 0;
+    }
+
+    .wiyp-company-legal {
+        margin: 0 125px 0 0;
+    }
+}
+
