@@ -298,17 +298,30 @@ a {
 
 .wiyp-company-legal {
     margin: 10px;
-    font-size: 16px;    
-}
-
-.wiyp-company-juridic {
-    margin-bottom: 10px;
-       
+    font-size: 16px;
+    color: var(--color-black);   
 }
 
 .wiyp-company-juridic a {
     color: var(--color-black);
     font-size: 16px;
+}
+
+.wiyp-company-address {
+    padding: 10px;
+}
+
+@media (min-width: 320px) {
+
+    .wiyp-company-legal {        
+        font-size: 14px;
+          
+    }
+
+    .wiyp-company-juridic a {        
+        font-size: 14px;
+    }
+
 }
 
 @media (min-width: 576px) {
@@ -355,6 +368,15 @@ a {
 
     #wiyp-solution {        
         align-items: center;    
+    } 
+    
+    .wiyp-company-legal {        
+        font-size: 15px;
+          
+    }
+
+    .wiyp-company-juridic a {        
+        font-size: 15px;
     }
 }
 
@@ -374,7 +396,7 @@ a {
     #wiyp-company {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-direction: row;
         padding: 0 20px 0 0;
     }
